@@ -1,0 +1,15 @@
+@media (max-width: 750px) {
+    body {
+        background-color: lightgreen;
+        padding-left: 50px;
+    }
+    hr{
+        border: brown double;
+    }
+    #center {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+   
+}
+
