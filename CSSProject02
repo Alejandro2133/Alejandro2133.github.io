@@ -1,0 +1,32 @@
+#tasks {
+border: dotted 5px;
+
+}
+
+#color {
+    background-image: linear-gradient( rgb(249, 249, 0),orange)
+}
+
+#taks-title {
+    border: 5px solid;
+    border-radius: 15px;
+
+}
+
+li {
+    font-size: 20px;
+}
+
+h1 {
+    border: 5px solid;
+    border-color: white;
+    border-radius: 5px;
+   text-align: center;
+}
+
+.remove {
+    background-color: Red;
+}
+.completed{
+    background-color: Green;
+}
