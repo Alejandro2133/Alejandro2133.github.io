@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js"></script>
+</head>
+<body>
+
+    <div class="start_view">
+        <h1>Enter your name</h1>
+        <input type="text" id="name">
+        <button class="start-button" onclick="startQuiz()">Start Quiz</button>
+      </div>
+    <div class="quiz_view">
+      <h1>Sample Quiz</h1>
+      <div class="question">
+        <p id="question-text">Question 1: Which is the correct way to call an ArrayList</p>
+        <div class="choices">
+          <button class="choice" onclick="checkAnswer(0)">ArrayList <> list = ArrayList()</button>
+          <button class="choice" onclick="checkAnswer(1)">ArrayList <int> list = new ArrayList<>()</button>
+          <button class="choice" onclick="checkAnswer(2)">ArrayList <Integer> list = new ArrayList<>()</button>
+          <button class="choice" onclick="checkAnswer(3)">ArrayList <Integer> list = new ArrayList<></button>
+        </div>
+        <p id="feedback"></p>
+      </div>
+  
+    </div>
+    
+  </body>
+</html>
